@@ -1,0 +1,245 @@
+/* buttons */
+.site__button, 
+.discount__details, 
+.discount__details--highlight {
+    color: white;
+}
+
+.site__button,
+.discount__details--highlight,
+.discount__details {
+    text-align: center;
+}
+
+.site__button,
+.view-all__button{
+    display:block;
+}
+
+.site__button,
+.view-all__button {
+    text-decoration: none;
+}
+
+.address__container, 
+.hours__container, 
+.social__container {
+    display: inline-block;
+}
+
+.landing-hero__left,
+.product__pic--big,  {
+    box-sizing: border-box;
+}
+
+.footer__container,
+.landing-hero,
+.product-card__bottom {
+    background-color: #fff0ed;
+}
+
+.site__button {
+    background-color: #5bacc3;
+    font-size: 1.25rem;
+    min-width: 11.25rem;
+    width: 13rem;
+    padding: 0.8rem 0;
+}
+/* hero landing strip */
+.landing-hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff0ed;
+    padding-bottom: 10vh;
+}
+
+.landing-hero__left {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:flex-start;
+    padding-left: 10%;
+    height: 50vh;
+}
+
+.landing-hero__left > * {
+    margin-top: 2%;
+    margin-bottom: 2% ;
+}
+
+.landing-hero__details {
+    font-size: 1.2rem;
+    min-width: 35vw;
+    width: 45%;
+}
+
+.product__pic--big {
+    min-height: 15rem;
+    max-height: 40rem;
+    padding-right: 10%;
+}
+/* Our Products section */
+.products__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f7f7f7 ;
+    padding: 1rem;
+}
+
+.products__title {
+    margin: 0 auto;
+    padding-top: 10vh;
+    background-color: #f7f7f7 ;
+}
+
+.product-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: white;
+    box-shadow: 0.1rem 0.413rem 0.343rem lightgrey;
+    min-width: 14.5rem;
+    max-width: 19rem;
+    min-height: 24rem;
+    max-height: 25rem;
+    padding: 1.5rem 0 0;
+    margin: 3% 2%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.product-card > * {    
+}
+
+.product-card__pic {
+    margin: auto;
+    min-height: 15rem;
+    max-height: 1rem;
+}
+
+.product-card__bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+.product-card__bottom_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 63%;
+}
+
+.product__name {
+    width: fit-content;
+}
+
+.Product-card__item-quantity {
+    color: rgb(144, 144, 144)
+}
+
+.products__background--color{
+    background-color: #f7f7f7 ;
+    padding: 1% 0 4%;
+}
+
+.view-all__button {
+    margin: 0 auto 1%;
+}
+
+/* difference banner */
+.difference-banner {
+    margin-top: 8% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.difference-banner__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35%;
+    height: 24rem; 
+    }
+
+.difference-banner__title {
+    min-width: 34vw;
+    width: 45%;
+}
+
+.difference-banner__details {
+    min-width: 30vw;
+    width: 40%;
+}
+
+.difference-banner__logo-strip {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    min-width: 29vw;
+    width: 40%;
+}
+
+.difference-banner__logo {
+    min-width: 3.125rem;
+    max-width: 7.5rem;
+    max-height: 3.5rem;
+}
+
+.difference-banner__media {
+    background-image: url(../Assets/images/coldbrewbackground.png) ;
+    background-size: cover;
+    padding: 4% 10%;
+}
+
+/* discounts section */
+
+.discounts__container {
+    background-color: #393939;
+    width: 85%;
+    margin: 15% auto;
+    padding: 2% 0;
+}
+
+.discount__details--highlight,
+.discount__details {
+    font-size: 2.6rem;
+}
+.discount__details {
+color: #f7f7f7;
+}
+/* footer */
+
+.bottom__details {
+    font-size: 1.1rem;
+}
+
+.bottom__social-logo {
+    min-width: 3.125rem;
+    max-width: 7.5rem;
+}
+
+.footer__container {
+    padding: 5% 10%;
+}
+
+.address__container, 
+.hours__container, 
+.social__container {
+width: fit-content;
+margin: 0 5%;
+}
+
+.address__container > *, 
+.hours__container > *, 
+.social__container > * {
+    margin: 9% 0;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/global.css">
+    <link rel="stylesheet" type="text/css" href="./css/landing.css">
+    <title>nitro - Home</title>
+</head>
+<body>
+    <!-- site wide nav bar -->
+
+    <nav class="background--standard toolbar__container">
+       <div>
+           <a href="/" class="link--standard">
+               <img src="../Assets/logos/coffee-beans-logo-and-footer.svg" class="toolbar__logo" alt="coffee bean logo">
+           </a>
+           <a class="toolbar__title" href="/">nitro</a>
+       </div> 
+       
+        <ul class= "toolbar__list">
+            <a class="toolbar__item" href="/">ABOUT</a>
+            <a class="toolbar__item" href="./pages/menu.html">MENU</a>
+            <a class="toolbar__item--blue" href="./pages/menu.html">SHOP NOW</a>    
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Landing page hero banner -->
+        <div class="landing-hero">
+            <div class="landing-hero__left">
+                <h1>Nitro Coffee</h1>
+                <p class="landing-hero__details">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
+                <a class="link--standard site__button" href="./pages/menu.html">SHOP NOW</a>
+            </div>
+            <img src="./Assets/images/coffeebeans-hero.png" class="product__pic--big" alt="coffee bag">
+            
+        </div>
+
+        <!-- our products section  -->
+        <h2 class="text--center products__title">Our Products</h2>
+        
+        <section class="products__container">
+
+            <div class="product-card">
+                <img src="./Assets/images/coffeebeans.png" class="product-card__pic" alt="coffee beans">
+                <div class="product-card__bottom">
+                    <div class="product-card__bottom_left">
+                        <h3 class="product__name">Coffee Beans</h3>
+                        <p class="Product-card__item-quantity">
+                            Pack of 3
+                        </p>
+                    </div>
+                    <p class="price--color">$19</p>
+                </div>
+            </div>
+            
+            <div class=product-card>
+                <img src="./Assets/images/coldbrew.png" class="product-card__pic" alt="cold brew">
+                <div class="product-card__bottom">
+                    <div class="product-card__bottom_left">
+                        <h3 class="product__name">Cold Brew</h3>
+                        <p class="Product-card__item-quantity">
+                            1 can
+                        </p>
+                    </div>
+                    <p class="price--color">$5</p>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="./Assets/images/inhousebrew.png" class="product-card__pic" alt="in-house brew">
+                <div class="product-card__bottom">
+                    <div class="product-card__bottom_left">
+                        <h3 class="product__name">In-house Brew</h3>
+                        <p class="Product-card__item-quantity">
+                            1 cup
+                        </p>
+                    </div> 
+                    <p class="price--color">$3</p>
+                </div> 
+            </div> 
+        </section>
+        
+        <!-- view all button -->
+        <div class="products__background--color">
+            <a href='./pages/menu.html' class="view-all__button site__button">VIEW ALL</a>
+        </div>
+
+
+        <!-- difference banner -->
+        <div class="difference-banner">
+            <div class="difference-banner__left">
+                <h2 class="difference-banner__title">
+                    We're Different
+                </h2>
+                <p class="difference-banner__details">
+                    We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.
+                </p>
+                <div class="difference-banner__logo-strip">
+                    <img src="/Assets/images/planting.svg" class="difference-banner__logo" alt="growing coffee logo">
+                    <img src="/Assets/logos/coffee-beans.svg" class="difference-banner__logo" alt="coffee bean logo">
+                    <img src="/Assets/logos/coffee-cup.svg" class="difference-banner__logo" alt="coffee cup logo">
+                </div>
+                <a href="" class="link--standard site__button">
+                    LEARN MORE
+                </a>
+            </div>
+            <img src="/Assets/images/tiltedcan.png" class="difference-banner__media" alt="cold brew big">
+        </div>
+
+        <!-- discounts section -->
+        <section class="discounts__container">
+            <p class="discount__details text--standard">Get 20% off your first order with code:<span class="discount__details--highlight text--bold"> FirstNitro</p>
+        </section>       
+    </main>
+
+<!-- footer  -->
+    <footer class="footer__container">       
+        <div class="address__container">
+            <h3>Address</h3>
+            <p class="bottom__details">503 Brodway Penhouse<br>New York</p>
+        </div>
+
+        <div class="hours__container">
+            <h3>Hours</h3>
+            <p class="bottom__details text--bold">Monday - Friday:<span class="bottom__details text--standard"> 9am - 7pm<br><span class="bottom__details text--bold">Saturday - Sunday:<span class="bottom__details text--standard"> 10am - 5pm</p>
+        </div>
+
+        <div class="social__container">
+            <h3>Social</h3>
+            <a href="http://www.facebook.com"><img src="./Assets/logos/Facebook-Icon.svg" class="bottom__social-logo" alt=facebook></a>
+            <a href="http://www.yelp.com"><img src="./Assets/logos/Yelp-Icon.svg" class="bottom__social-logo" alt=yelp></a>
+            <a href="http://www.instagram.com"><img src="./Assets/logos/Instagram-Icon.svg" class="bottom__social-logo" alt=instagram></a>
+        </div>
+    </footer>
+</body>
+</html>
