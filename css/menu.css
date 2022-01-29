@@ -9,11 +9,6 @@
     color: #F7F7F7;
 }
 
-.menu-toolbar, 
-{
-    /* text-align: center; */
-}
-
 /* Menu Hero Banner */
 
 .menu-hero__container {
@@ -29,7 +24,17 @@
     max-width: 100%;
 }
 
+.menu-hero__title--overlay {
+    z-index: 10;
+    position: absolute;
+    padding: 5.5rem 8.5rem;
+    border: 4px solid #5bacc3;
+}
+
 .menu-hero__title {
+    position: relative;
+    top: 0.7rem;
+    left: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;

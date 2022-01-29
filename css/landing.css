@@ -39,13 +39,25 @@
 }
 
 .site__button {
+    position: relative;
     background-color: #5bacc3;
-    font-size: 1.25rem;
     min-width: 11.25rem;
     width: 13rem;
     padding: 0.8rem 0;
+    font-size: 1.25rem;
 }
-/* hero landing strip */
+
+.site__button--overlay {
+    width: 12.8rem;
+    height: 92%;
+    top: -0.3rem;
+    left: -0.3rem;
+    position: absolute;
+    border: 2px solid black;
+
+}
+
+/* hero banner */
 .landing-hero {
     display: flex;
     justify-content: space-around;
@@ -83,9 +95,9 @@
 .products__container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #f7f7f7 ;
-    padding: 1rem;
+    padding: 3.5rem;
 }
 
 .products__title {
@@ -106,7 +118,7 @@
     min-height: 24rem;
     max-height: 25rem;
     padding: 1.5rem 0 0;
-    margin: 3% 2%;
+    margin: 1% 1%;
     border-radius: 0.5rem;
     overflow: hidden;
 }
@@ -157,8 +169,9 @@
 .difference-banner {
     margin-top: 8% ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 7.7rem;
 }
 
 .difference-banner__left {
@@ -194,18 +207,29 @@
     max-height: 3.5rem;
 }
 
+.difference-banner__media--overlay {
+    position: relative;
+    padding: 4% 10%;
+    border: 4px solid #5bacc3;
+    width: 9.8rem;
+    height: 18.1rem;
+}
+
 .difference-banner__media {
+    z-index: -1;
     background-image: url(../Assets/images/coldbrewbackground.png) ;
     background-size: cover;
-    padding: 4% 10%;
+    padding: 3.23rem 6.8rem;
+    position: absolute;
+    bottom: -1.1rem;
+    right: -1.1rem;
 }
 
 /* discounts section */
-
 .discounts__container {
     background-color: #393939;
     width: 85%;
-    margin: 15% auto;
+    margin: 11% auto;
     padding: 2% 0;
 }
 
@@ -216,10 +240,10 @@
 .discount__details {
 color: #f7f7f7;
 }
-/* footer */
 
+/* footer */
 .bottom__details {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .bottom__social-logo {
@@ -228,18 +252,42 @@ color: #f7f7f7;
 }
 
 .footer__container {
-    padding: 5% 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+}
+
+.footer__bean-container {
+    position: relative;
+    width: 100%;
+}
+
+.footer__bean--left,
+.footer__bean--right {
+    position: absolute;
+    height: 7rem;
+    opacity: 30%;
+}
+
+.footer__bean--left{
+    left: -3%;
+    top: 1.25rem;
+}
+
+.footer__bean--right {
+    right: -3%;
+    top: 4.5rem;
 }
 
 .address__container, 
 .hours__container, 
 .social__container {
 width: fit-content;
-margin: 0 5%;
 }
 
 .address__container > *, 
 .hours__container > *, 
 .social__container > * {
-    margin: 9% 0;
+    margin: 10% 0;
 }

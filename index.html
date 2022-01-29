@@ -32,7 +32,7 @@
             <div class="landing-hero__left">
                 <h1>Nitro Coffee</h1>
                 <p class="landing-hero__details">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species.</p>
-                <a class="link--standard site__button" href="./pages/menu.html">SHOP NOW</a>
+                <a class="link--standard site__button" href="./pages/menu.html">SHOP NOW<div class="link--standard site__button--overlay"></div></a>
             </div>
             <img src="./Assets/images/coffeebeans-hero.png" class="product__pic--big" alt="coffee bag">
             
@@ -85,7 +85,7 @@
         
         <!-- view all button -->
         <div class="products__background--color">
-            <a href='./pages/menu.html' class="view-all__button site__button">VIEW ALL</a>
+            <a href='./pages/menu.html' class="view-all__button site__button">VIEW ALL<div class="link--standard site__button--overlay"></div></a>
         </div>
 
 
@@ -105,9 +105,12 @@
                 </div>
                 <a href="" class="link--standard site__button">
                     LEARN MORE
+                    <div class="link--standard site__button--overlay"></div>
                 </a>
             </div>
-            <img src="/Assets/images/tiltedcan.png" class="difference-banner__media" alt="cold brew big">
+            <div class="difference-banner__media--overlay">
+                <img src="/Assets/images/tiltedcan.png" class="difference-banner__media" alt="cold brew big">
+            </div>
         </div>
 
         <!-- discounts section -->
@@ -117,23 +120,29 @@
     </main>
 
 <!-- footer  -->
-    <footer class="footer__container">       
-        <div class="address__container">
-            <h3>Address</h3>
-            <p class="bottom__details">503 Brodway Penhouse<br>New York</p>
+    <footer>       
+        <div class="footer__bean-container">
+            <img src="/Assets/logos/coffee-beans-logo-and-footer.svg" class="footer__bean--left">
+            <img src="/Assets/logos/coffee-beans-logo-and-footer.svg" class="footer__bean--right">
         </div>
-
-        <div class="hours__container">
-            <h3>Hours</h3>
-            <p class="bottom__details text--bold">Monday - Friday:<span class="bottom__details text--standard"> 9am - 7pm<br><span class="bottom__details text--bold">Saturday - Sunday:<span class="bottom__details text--standard"> 10am - 5pm</p>
-        </div>
-
-        <div class="social__container">
-            <h3>Social</h3>
-            <a href="http://www.facebook.com"><img src="./Assets/logos/Facebook-Icon.svg" class="bottom__social-logo" alt=facebook></a>
-            <a href="http://www.yelp.com"><img src="./Assets/logos/Yelp-Icon.svg" class="bottom__social-logo" alt=yelp></a>
-            <a href="http://www.instagram.com"><img src="./Assets/logos/Instagram-Icon.svg" class="bottom__social-logo" alt=instagram></a>
-        </div>
+        <div class="footer__container">
+            <div class="address__container">
+                <h3>Address</h3>
+                <p class="bottom__details">503 Brodway Penhouse<br>New York</p>
+            </div>
+            
+            <div class="hours__container">
+                <h3>Hours</h3>
+                <p class="bottom__details text--bold">Monday - Friday:<span class="bottom__details text--standard"> 9am - 7pm<br><span class="bottom__details text--bold">Saturday - Sunday:<span class="bottom__details text--standard"> 10am - 5pm</p>
+                </div>
+                
+                <div class="social__container">
+                    <h3>Social</h3>
+                    <a href="http://www.facebook.com"><img src="./Assets/logos/Facebook-Icon.svg" class="bottom__social-logo" alt=facebook></a>
+                    <a href="http://www.yelp.com"><img src="./Assets/logos/Yelp-Icon.svg" class="bottom__social-logo" alt=yelp></a>
+                    <a href="http://www.instagram.com"><img src="./Assets/logos/Instagram-Icon.svg" class="bottom__social-logo" alt=instagram></a>
+                </div>
+            </div>
     </footer>
 </body>
 </html>
