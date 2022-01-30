@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../css/global.css">
-    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" type="text/css" href="../scss/global.css">
+    <link rel="stylesheet" type="text/css" href="../scss/menu.css">
     <title>nitro - Menu</title>
 </head>
 
@@ -21,8 +21,8 @@
     
      <ul class= "toolbar__list">
          <a class="toolbar__item" href="/">ABOUT</a>
-         <a class="toolbar__item" href="./pages/menu.html">MENU</a>
-         <a class="toolbar__item--blue" href="./pages/menu.html">SHOP NOW</a>    
+         <a class="toolbar__item" href="menu.html">MENU</a>
+         <a class="toolbar__item--blue" href="menu.html">SHOP NOW</a>    
      </ul>
  </nav>
 <!-- menu hero banner -->
@@ -32,14 +32,13 @@
         </section>
 <!-- menu nav bar -->
         <nav class="menu-toolbar">
-                <a class="menu-toolbar__item" href="">HOT DRINKS</a>
-                <a class="menu-toolbar__item" href="">COLD DRINKS</a>
-                <a class="menu-toolbar__item" href="">PASTRIES</a>
+                <a class="menu-toolbar__item" href="#HOTDRINKS">HOT DRINKS</a>
+                <a class="menu-toolbar__item" href="#COLDDRINKS">COLD DRINKS</a>
+                <a class="menu-toolbar__item" href="#PASTRIES">PASTRIES</a>
         </nav>
         <!-- menu sections -->
         <section>
-
-            <div class="menu-section">
+            <div class="menu-section" id="HOTDRINKS">
                 <h2 class="menu-section__title">Hot Drinks</h2>
                 <div class="menu-item">
                     <h3 class="menu-item__name">In-house brew</h3>
@@ -53,7 +52,7 @@
                 </div>
             </div>
                 
-            <div class="menu-section">
+            <div class="menu-section" id="COLDDRINKS">
                 <h2 class="menu-section__title">Cold Drinks</h2>
                 <div class="menu-item">
                     <h3 class="menu-item__name">Cold Brew</h3>
@@ -68,7 +67,7 @@
                 </div>    
             </div>
                 
-            <div class="menu-section">
+            <div class="menu-section" id="PASTRIES">
                 <h2 class="menu-section__title">Pastries</h2>
                 
                 <div class="menu-item">

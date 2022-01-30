@@ -1,0 +1,90 @@
+@use '_colors' as colors;
+
+/* site wide */
+* :not(a) {
+    color: colors.$menu-highlight;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans';
+}
+body, .text--standard {
+    font-weight: 400;
+}
+h1, h2, h3, .toolbar__title {
+    font-weight: 300;
+}
+h1, h2 {
+    font-size: 3.35rem;
+}
+h3, .toolbar__title {
+    font-size: 2rem;
+}
+p {
+    font-size: 1rem;
+}
+
+/*  modifiers */
+.price--color {
+    color: colors.$menu-overlay;
+    font-size: 1.75rem;
+    font-weight: 850;
+}
+.text--bold {
+    font-weight: 700;
+}
+.link--standard {
+    text-decoration: none;
+}
+.text--center{
+    text-align:center;
+
+}
+
+/* site toolbar */
+.toolbar {
+    &__container {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: colors.$background-primary;
+        height: 8vh;
+        min-height: 5rem;
+        padding: 0.9rem 1.1rem;
+    }
+    &__title,
+    &__item{ 
+        font-family: 'Open Sans';
+        text-decoration: none;
+        color: colors.$menu-highlight;
+        
+        &--blue {
+            @extend .toolbar__item;
+            color: colors.$menu-overlay;
+        }
+    }
+    &__title {
+        font-size: 3rem;
+    }
+    &__list {
+        display: flex;
+        white-space: nowrap;
+        justify-content: space-around;
+        min-width: max-content;
+        width: 30%;
+    }
+    &__item {
+        font-size: 1.2rem;
+        box-sizing: border-box;
+        &--blue {
+            @extend .toolbar__item
+        }
+    }
+    &__logo {
+        min-width: 3.125rem;
+        max-width: 7.5rem;
+        vertical-align: -10%;
+    }
+}
