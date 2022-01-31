@@ -316,12 +316,11 @@ p {
 .difference-banner__media--overlay {
   position: relative;
   border: 4px solid #5bacc3;
-  width: 22.8rem;
-  height: 22.8rem;
+  width: 22.4rem;
+  height: 22.4rem;
   color: rgba(255, 255, 255, 0);
 }
 .difference-banner__media--overlay:hover .difference-banner__media {
-  transform: rotate(360deg);
   -webkit-animation: spin 2s infinite linear;
           animation: spin 2s infinite linear;
 }
