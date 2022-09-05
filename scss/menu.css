@@ -6,22 +6,28 @@
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 
-body, .text--standard {
+body,
+.text--standard {
   font-weight: 400;
 }
 
-h1, h2, h3, .toolbar__title {
+h1,
+h2,
+h3,
+.toolbar__title {
   font-weight: 300;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 3.35rem;
 }
 
-h3, .toolbar__title {
+h3,
+.toolbar__title {
   font-size: 2rem;
 }
 
@@ -59,12 +65,16 @@ p {
   min-height: 5rem;
   padding: 0.9rem 1.1rem;
 }
-.toolbar__title, .toolbar__item, .toolbar__title--blue, .toolbar__item--blue {
-  font-family: "Open Sans";
+.toolbar__title,
+.toolbar__item,
+.toolbar__title--blue,
+.toolbar__item--blue {
+  font-family: 'Open Sans';
   text-decoration: none;
   color: #393939;
 }
-.toolbar__title--blue, .toolbar__item--blue {
+.toolbar__title--blue,
+.toolbar__item--blue {
   color: #5bacc3;
 }
 .toolbar__title {
@@ -79,7 +89,9 @@ p {
   min-width: max-content;
   width: 30%;
 }
-.toolbar__item, .toolbar__title--blue, .toolbar__item--blue {
+.toolbar__item,
+.toolbar__title--blue,
+.toolbar__item--blue {
   font-size: 1.2rem;
   box-sizing: border-box;
 }
@@ -93,7 +105,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../Assets/images/coffee-circle.jpg);
+  background-image: url(../assets/images/coffee-circle.jpg);
   background-size: cover;
   min-height: 35.938rem;
   max-height: 37.5rem;
@@ -111,9 +123,9 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  Min-width: 17.5rem;
+  min-width: 17.5rem;
   max-width: 18.75rem;
-  Min-height: 11.25rem;
+  min-height: 11.25rem;
   max-height: 12.5rem;
   font-weight: 300;
 }
@@ -164,9 +176,9 @@ p {
 }
 .menu-item__name {
   -webkit-margin-before: 2rem;
-          margin-block-start: 2rem;
+  margin-block-start: 2rem;
   -webkit-margin-after: 0.3rem;
-          margin-block-end: 0.3rem;
+  margin-block-end: 0.3rem;
 }
 .menu-item__description {
   padding: 0;
@@ -175,8 +187,8 @@ p {
   width: 50%;
   text-align: center;
   -webkit-margin-after: 0.4rem;
-          margin-block-end: 0.4rem;
+  margin-block-end: 0.4rem;
 }
 .menu-item__price {
   font-size: 1.15rem;
-}/*# sourceMappingURL=menu.css.map */
+} /*# sourceMappingURL=menu.css.map */

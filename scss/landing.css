@@ -6,22 +6,28 @@
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 
-body, .text--standard {
+body,
+.text--standard {
   font-weight: 400;
 }
 
-h1, h2, h3, .toolbar__title {
+h1,
+h2,
+h3,
+.toolbar__title {
   font-weight: 300;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 3.35rem;
 }
 
-h3, .toolbar__title {
+h3,
+.toolbar__title {
   font-size: 2rem;
 }
 
@@ -59,12 +65,16 @@ p {
   min-height: 5rem;
   padding: 0.9rem 1.1rem;
 }
-.toolbar__title, .toolbar__item, .toolbar__title--blue, .toolbar__item--blue {
-  font-family: "Open Sans";
+.toolbar__title,
+.toolbar__item,
+.toolbar__title--blue,
+.toolbar__item--blue {
+  font-family: 'Open Sans';
   text-decoration: none;
   color: #393939;
 }
-.toolbar__title--blue, .toolbar__item--blue {
+.toolbar__title--blue,
+.toolbar__item--blue {
   color: #5bacc3;
 }
 .toolbar__title {
@@ -79,7 +89,9 @@ p {
   min-width: max-content;
   width: 30%;
 }
-.toolbar__item, .toolbar__title--blue, .toolbar__item--blue {
+.toolbar__item,
+.toolbar__title--blue,
+.toolbar__item--blue {
   font-size: 1.2rem;
   box-sizing: border-box;
 }
@@ -299,7 +311,7 @@ p {
   max-height: 3.5rem;
 }
 .difference-banner__media-background {
-  background-image: url(../Assets/images/coldbrewbackground.png);
+  background-image: url(../assets/images/coldbrewbackground.png);
   background-size: contain;
   width: 22.8rem;
   height: 22.8rem;
@@ -322,7 +334,7 @@ p {
 }
 .difference-banner__media--overlay:hover .difference-banner__media {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 /* discounts section */
@@ -332,9 +344,10 @@ p {
   margin: 11% auto;
   padding: 2% 0;
   -webkit-animation: flash 2.5s infinite ease-in-out;
-          animation: flash 2.5s infinite ease-in-out;
+  animation: flash 2.5s infinite ease-in-out;
 }
-.discount__details--highlight, .discount__details {
+.discount__details--highlight,
+.discount__details {
   font-size: 2.6rem;
 }
 .discount__details {
@@ -377,7 +390,8 @@ p {
   height: 12rem;
   overflow: hidden;
 }
-.footer__bean-container--left, .footer__bean-container--right {
+.footer__bean-container--left,
+.footer__bean-container--right {
   position: absolute;
   height: 7rem;
   opacity: 30%;
@@ -389,4 +403,4 @@ p {
 .footer__bean-container--right {
   right: -3%;
   top: 4.5rem;
-}/*# sourceMappingURL=landing.css.map */
+} /*# sourceMappingURL=landing.css.map */
